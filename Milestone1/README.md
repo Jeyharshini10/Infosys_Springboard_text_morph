@@ -1,6 +1,7 @@
-Text Summarization and Paraphrasing using T5, BART, and PEGASUS
 
-Project Overview:
+**Text Summarization and Paraphrasing using T5, BART, and PEGASUS**
+
+**Project Overview**:
     This project demonstrates text summarization and paraphrasing using three state-of-the-art transformer-based models — T5, BART, and PEGASUS — on classic literature from Project Gutenberg
 
 The aim is to compare model performance in terms of summary length, compression ratio, and paraphrase quality, while visualizing the results through simple data analytics and plots.
@@ -19,7 +20,7 @@ GPU Advantage:
    When running summarization or paraphrasing, the model must repeatedly compute attention weights across all tokens. GPUs accelerate this process drastically, reducing inference time from minutes to seconds.
 Using torch.cuda.is_available() ensures the code runs on GPU (if available) via NVIDIA CUDA, providing real-time generation efficiency.
 
-Text files:
+**Text files**:
 
  "https://www.gutenberg.org/files/1661/1661-0.txt",  # The Adventures of Sherlock Holmes
  "https://www.gutenberg.org/files/98/98-0.txt"       # A Tale of Two Cities
