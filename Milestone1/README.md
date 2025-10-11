@@ -1,4 +1,5 @@
 Text Summarization and Paraphrasing using T5, BART, and PEGASUS
+
 Project Overview:
     This project demonstrates text summarization and paraphrasing using three state-of-the-art transformer-based models — T5, BART, and PEGASUS — on classic literature from Project Gutenberg
 
