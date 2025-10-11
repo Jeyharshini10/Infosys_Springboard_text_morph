@@ -1,1 +1,10 @@
+transformers
+torch
+sentencepiece
+pandas
+numpy
+matplotlib
+tqdm
+nltk
+scikit-learn
 
