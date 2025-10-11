@@ -25,38 +25,36 @@ Text files:
   
 Models Used:
 
-1.T5 (Text-to-Text Transfer Transformer)
- Model Name: t5-base
- Approach: Treats every NLP task as a text-to-text problem.
- Summarization Input Format: "summarize: <text>"
-Strengths:
- Flexible for multiple tasks (translation, summarization, paraphrasing).
- Generates grammatically rich and concise summaries.
- 
-Weakness:
-  May shorten too aggressively or remove rare context details.
+1. **T5 (Text-to-Text Transfer Transformer)**
+   - **Model Name:** t5-base
+   - **Approach:** Treats every NLP task as a text-to-text problem.
+   - **Summarization Input Format:** "summarize: <text>"
+   - **Strengths:**
+     - Flexible for multiple tasks (translation, summarization, paraphrasing)
+     - Generates grammatically rich and concise summaries
+   - **Weaknesses:**
+     - May shorten too aggressively
+     - Can remove rare context details
 
-2. BART (Bidirectional and Auto-Regressive Transformers):
-    Model Name: facebook/bart-base
-    Architecture: Combines BERT’s encoder and GPT’s decoder.
+2. **BART (Bidirectional and Auto-Regressive Transformers)**
+   - **Model Name:** facebook/bart-base
+   - **Architecture:** Combines BERT’s encoder and GPT’s decoder
+   - **Strengths:**
+     - Excellent for abstractive summarization
+     - Produces natural, fluent text with strong contextual coherence
+   - **Weaknesses:**
+     - Slightly slower than T5 due to complex bidirectional encoding
 
-Strengths:
-  Excellent for abstractive summarization.
-  Produces natural, fluent text with strong contextual coherence.
-
-Weakness:
-  Slightly slower than T5 due to complex bidirectional encoding.
-
-3. PEGASUS (Pre-training with Gap Sentences):
-   Model Name: google/pegasus-xsum
-   Approach: Pre-trained using “gap sentence generation”, where key sentences are masked and predicted.
-
-Strengths:
-   Especially designed for summarization tasks.
-   Captures key semantic points, performs well on news and story datasets.
-  
-Weakness:
-   May over-summarize or paraphrase more freely, losing some factual detail.
+3. **PEGASUS (Pre-training with Gap Sentences)**
+   - **Model Name:** google/pegasus-xsum
+   - **Approach:** Pre-trained using “gap sentence generation”, where key sentences are masked and predicted
+   - **Strengths:**
+     - Especially designed for summarization tasks
+     - Captures key semantic points
+     - Performs well on news and story datasets
+   - **Weaknesses:**
+     - May over-summarize or paraphrase more freely
+     - Sometimes loses factual detail
 
 **Project Workflow:**
 - **Data Loading:** Downloads text files (e.g., *A Tale of Two Cities*, *The Adventures of Sherlock Holmes*) from Project Gutenberg.
