@@ -23,9 +23,10 @@ Using torch.cuda.is_available() ensures the code runs on GPU (if available) via 
 **Text files**:
 
  "https://www.gutenberg.org/files/1661/1661-0.txt",  # The Adventures of Sherlock Holmes
+ 
  "https://www.gutenberg.org/files/98/98-0.txt"       # A Tale of Two Cities
   
-Models Used:
+**Models Used**:
 
 1. **T5 (Text-to-Text Transfer Transformer)**
    - **Model Name:** t5-base
@@ -87,13 +88,13 @@ Models Used:
 - requests
 - re
 
-Visual Outputs:
+**Visual Outputs**:
 
  Compression Ratio Comparison: Shows how much each model compresses text.
  Paraphrased Word Count Comparison: Displays variation in paraphrase verbosity.
  Similarity Scores: Indicates how close paraphrases are to original sentences.
 
-Conclusion:
+**Conclusion**:
 
  GPU usage significantly accelerates transformer inference, making large models feasible for interactive applications.
  
