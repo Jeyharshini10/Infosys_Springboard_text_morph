@@ -58,25 +58,13 @@ Strengths:
 Weakness:
    May over-summarize or paraphrase more freely, losing some factual detail.
 
-Project Workflow:
-
-Data Loading:
-Downloads text files (e.g., A Tale of Two Cities, The Adventures of Sherlock Holmes) from Project Gutenberg.
-
-Text Cleaning:
-Removes headers/footers and extra metadata using regex.
-
-Summarization:
-Each model generates summaries for multiple texts.
-Metrics such as original length, summary length, and compression ratio are computed and visualized.
-
-Paraphrasing:
- Uses fine-tuned models (Vamsi/T5_Paraphrase_Paws, eugenesiow/bart-paraphrase, tuner007/pegasus_paraphrase) to rephrase sample sentences.
-
-Visualization:
- Bar plots for compression ratio comparison.
- Word count comparison in paraphrased outputs.
- Optional similarity analysis using SentenceTransformer (all-MiniLM-L6-v2).
+**Project Workflow:**
+- **Data Loading:** Downloads text files (e.g., *A Tale of Two Cities*, *The Adventures of Sherlock Holmes*) from Project Gutenberg.
+- **Text Cleaning:** Removes headers/footers and extra metadata using regex.
+- **Summarization:** Each model generates summaries for multiple texts. Metrics such as original length, summary length, and compression ratio are computed and visualized.
+- **Paraphrasing:** Uses fine-tuned models to rephrase sample sentences.
+- **Visualization:** Bar plots for compression ratio comparison, word count comparison, optional similarity analysis.
+  
 
 | Metric                  | Description                                             |
 | ----------------------- | ------------------------------------------------------- |
