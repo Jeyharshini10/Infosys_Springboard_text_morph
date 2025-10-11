@@ -85,15 +85,19 @@ Visualization:
 | **Semantic Similarity** | Cosine similarity between embeddings (for paraphrasing) |
 | **Fluency**             | Subjective evaluation of readability                    |
 
-Libraries Used:
 
-transformers (Hugging Face)
-torch
-nltk
-pandas, numpy
-matplotlib, seaborn
-sentence-transformers (for similarity scoring)
-requests, re
+
+**Libraries Used:**
+- transformers (Hugging Face)
+- torch
+- nltk
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- sentence-transformers (for similarity scoring)
+- requests
+- re
 
 Visual Outputs:
 
