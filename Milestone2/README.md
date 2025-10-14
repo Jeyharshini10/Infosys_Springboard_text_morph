@@ -30,7 +30,7 @@ This project is part of the Infosys TextMorph Internship Program – **Milestone
 
 ---
 
-### **💡 Why Text Summarization Is Important**
+### ** Why Text Summarization Is Important**
 
 - **Save time:** Quickly understand long documents
 - **Enhance decision-making:** Extract key insights from large data
