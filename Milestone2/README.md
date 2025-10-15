@@ -115,7 +115,7 @@ By exploring both **abstractive (human-like)** and **extractive (sentence-based)
 
 ---
 
-### **🧰 Tech Stack**
+### ** Tech Stack**
 
 | **Category** | **Tools Used**                                                                 |
 |--------------|--------------------------------------------------------------------------------|
