@@ -88,27 +88,26 @@ Manual summarization is time-consuming, rewriting is difficult, and existing too
 ---
 
 ## 📂 Project Structure
-
-
 TextMorph/
 │
-├── app.py                  # Streamlit UI entry point
+├── app.py                  # Streamlit UI
 ├── backend/
 │   ├── auth.py             # JWT security & login logic
-│   ├── models.py           # Database schema definitions
-│   ├── ml_engine.py        # Summarization & paraphrasing core engine
-│   ├── readability.py      # Readability scoring functions
-│   ├── history.py          # User history logging
-│   ├── feedback.py         # Ratings & user comments
-│   └── admin.py            # Admin permissions management
+│   ├── models.py           # DB schema
+│   ├── ml_engine.py        # Summarization & paraphrasing core
+│   ├── readability.py      # Readability scoring
+│   ├── history.py          # History logging
+│   ├── feedback.py         # Ratings & comments
+│   └── admin.py            # Admin permissions
 │
-├── requirements.txt        # Python dependencies
-├── Dockerfile              # Docker container config
-├── .env.example            # Example environment variables
+├── requirements.txt
+├── Dockerfile
+├── .env.example
 └── docs/
-    ├── architecture.png    # System architecture diagram
-    ├── db_schema.png       # Database schema diagram
-    └── screenshots/        # UI screenshots
+    ├── architecture.png
+    ├── db_schema.png
+    └── screenshots/
+
 
 ---
 
