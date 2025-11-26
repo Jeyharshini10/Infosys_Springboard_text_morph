@@ -125,7 +125,10 @@ git clone <repository-link>
 cd TextMorph
 pip install -r requirements.txt
 
-###Setup Environment
+🛠 Setup Environment
+
+Create a .env file in the project root and add the following:
+
 JWT_SECRET_KEY=your_secret_key_here
 SMTP_EMAIL=your_email_here
 SMTP_PASS=your_app_password_here
