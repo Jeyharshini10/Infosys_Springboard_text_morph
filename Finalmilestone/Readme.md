@@ -89,6 +89,9 @@ Manual summarization is time-consuming, rewriting is difficult, and existing too
 
 ## 📂 Project Structure
 
+<div>
+    
+
 TextMorph/
 │
 ├── app.py                  # Streamlit UI
@@ -109,7 +112,7 @@ TextMorph/
     ├── db_schema.png
     └── screenshots/
 
-
+</div>
 ---
 
 ## ⚙️ Installation & Setup
