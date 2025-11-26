@@ -85,11 +85,11 @@ Manual summarization is time-consuming, rewriting is difficult, and existing too
 | FLAN-T5 | Paraphrasing & complexity control |
 | NLTK | Readability metrics engine |
 
----
 
-## 📂 Project Structure
-   
 
+<h3>Project Structure</h3>
+
+<pre>
 TextMorph/
 │
 ├── app.py                  # Streamlit UI
@@ -109,6 +109,7 @@ TextMorph/
     ├── architecture.png
     ├── db_schema.png
     └── screenshots/
+</pre>
 
 
 
