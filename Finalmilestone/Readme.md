@@ -88,6 +88,7 @@ Manual summarization is time-consuming, rewriting is difficult, and existing too
 ---
 
 ## 📂 Project Structure
+
 TextMorph/
 │
 ├── app.py                  # Streamlit UI
