@@ -86,10 +86,9 @@ Manual summarization is time-consuming, rewriting is difficult, and existing too
 | NLTK | Readability metrics engine |
 
 ---
-<div>
-## 📂 Project Structure
 
-    
+## 📂 Project Structure
+   
 
 TextMorph/
 │
@@ -111,7 +110,7 @@ TextMorph/
     ├── db_schema.png
     └── screenshots/
 
-</div>
+
 
 ## ⚙️ Installation & Setup
 
