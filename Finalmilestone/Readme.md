@@ -125,70 +125,61 @@ git clone <repository-link>
 cd TextMorph
 pip install -r requirements.txt
 
-🛠 Setup Environment
+## 🛠 Setup Environment
 
-Create a .env file in the project root and add the following:
+Create a `.env` file in the project root and add the following:
 
+```env
 JWT_SECRET_KEY=your_secret_key_here
 SMTP_EMAIL=your_email_here
 SMTP_PASS=your_app_password_here
 
-###Run Project
+
+### Run Project
 streamlit run app.py
 
-###📝 How to Use
+### How to Use
+- Register / Login
+- Upload text or document
+- Select summarization or paraphrasing
+- Adjust output style
+- View results with comparison
+- Submit feedback and save history
+- Admin can review system analytics
 
-Register / Login
+### Datasets & Evaluation
 
-Upload text or document
+#### Datasets
+| Dataset | Purpose |
+|---------|---------|
+| WikiAuto | Text simplification |
+| Newsela | Grade-level rewriting |
+| ASSET | Paraphrasing benchmark |
 
-Select summarization or paraphrasing
+#### Evaluation Metrics
+- ROUGE-L
+- BLEU
+- Readability Delta
+- Perplexity
 
-Adjust output style
 
-View results with comparison
+### Roadmap
+- Fine-tuned custom models
+- GPU cloud deployment
+- Support for multiple languages
+- Mobile application
+- Advanced visualization dashboards
 
-Submit feedback and save history
+### Team
+| Name | Role | Responsibility |
+|-------|-------|----------------|
+| Team Members | ML Engineer | Model Integration & Evaluation |
+| … | Backend Developer | JWT + DB |
+| … | Frontend Developer | Streamlit UI |
+| … | Documentation | PPT, Report, README |
 
-Admin can review system analytics
+### License
+MIT License — Free to use, modify, and distribute with credits
 
-###📊 Datasets & Evaluation
-| Dataset  | Purpose                |
-| -------- | ---------------------- |
-| WikiAuto | Text simplification    |
-| Newsela  | Grade-level rewriting  |
-| ASSET    | Paraphrasing benchmark |
-
-###Evaluation Metrics
-
-ROUGE-L
-
-BLEU
-
-Readability Delta
-
-Perplexity
-
-###🛣 Roadmap
-
-Fine-tuned custom models
-
-GPU cloud deployment
-
-Support for multiple languages
-
-Mobile app extension
-
-Advanced visualization dashboards
-
-###👥 Team
-| Name              | Role               | Responsibility                |
-| ----------------- | ------------------ | ----------------------------- |
-| Team Member Names | ML Engineer        | Model Integration, Evaluation |
-| ...               | Backend Developer  | JWT + DB                      |
-| ...               | Frontend Developer | Streamlit UI                  |
-| ...               | Documentation      | Reports, PPT, README          |
-
-###📜 License
-
-MIT License — Free to use and modify with credits
+### Support
+If you like this project, please ⭐ star the repository!
