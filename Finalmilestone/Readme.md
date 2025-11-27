@@ -61,9 +61,7 @@ Manual summarization is time-consuming, rewriting is difficult, and existing too
 
 ### Workflow
 
-## ER Diagram
 
-![ER Diagram](assets/er-diagram.png)
 
 
 ## 🛠 Tech Stack
