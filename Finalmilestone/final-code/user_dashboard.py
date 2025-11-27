@@ -30,7 +30,7 @@ except LookupError:
 #  CONFIGURATION & CONSTANTS
 # =============================================================================
 
-SECRET_KEY = "6ad1d9156d75e5132ee2d93acd747ccf69732bb87fa426418f80907eff910076"
+SECRET_KEY = "your - real -token"
 SECURITY_QUESTIONS = [
     "What was the name of your first pet?",
     "What city were you born in?",
@@ -1621,4 +1621,5 @@ def main():
             st.switch_page("pages/admin_dashboard.py")
 
 if __name__ == "__main__":
+
     main()
