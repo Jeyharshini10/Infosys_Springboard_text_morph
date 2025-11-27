@@ -16,7 +16,7 @@ import base64
 #  CONFIGURATION & CONSTANTS
 # =============================================================================
 
-SECRET_KEY = "6ad1d9156d75e5132ee2d93acd747ccf69732bb87fa426418f80907eff910076"
+SECRET_KEY = "your real token "
 
 # =============================================================================
 #  DATABASE FUNCTIONS
@@ -722,4 +722,5 @@ def main():
     )
 
 if __name__ == "__main__":
+
     main()
