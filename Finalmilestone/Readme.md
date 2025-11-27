@@ -59,6 +59,8 @@ Manual summarization is time-consuming, rewriting is difficult, and existing too
 
 ## 🧩 System Architecture
 
+![Image](https://github.com/user-attachments/assets/e363ef49-4cc4-43ce-97ca-1179f874ba95)
+
 ### Workflow Er Diagram
 
 ![Image](https://github.com/user-attachments/assets/a7997fe9-3226-4f4b-80e0-7516029f2299)
