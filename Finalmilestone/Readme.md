@@ -436,7 +436,7 @@ TextMorph provides comprehensive text processing capabilities for general users 
 |-------------|------|
 | **Jey Harshini** | Authentication-JWT login ,security,ppt,ui| 
 | **Vijaya Sri Vyshnavi Devi** | Dasboard-readability scores,file uploads,readme ,ui|
-| **Likitha Lakamraju** | NLP engine -summarization &paraphrasing ,readme,Integration|
+| **Likhitha Lakamraju** | NLP engine -summarization &paraphrasing ,readme,Integration|
 | **Kushagra Hada** | Dataset&tuning -dataset handling,model fine-tuning,ui |
 | **Manasa Mateti** | admin panel-user management ,ER model,Analtics |
 
